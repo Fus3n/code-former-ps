@@ -9,7 +9,7 @@ Use **CodeFormer AI** to upscale your image inside Photoshop
 
 
 ## Download
-### [CCX FILE](CodeFormerPS.ccx)
+### [CCX FILE](https://github.com/Fus3n/code-former-ps/releases/tag/1.0.0)
 
 ## Upscale & Photo Restoration
 
