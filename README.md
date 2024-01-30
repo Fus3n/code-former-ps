@@ -1,11 +1,11 @@
-<center>
+<div align="center">
 <img style="width: 100px;" src="icons/CodeFormer_logo.png" alt="logo">
 
 # CodeFormerPS
 Use **CodeFormer AI** to upscale your image inside Photoshop
 
 <img src="images/codeformer-ui.png" alt="ui-example"/>
-</center>
+</div>
 
 
 ## Download
@@ -14,17 +14,17 @@ Use **CodeFormer AI** to upscale your image inside Photoshop
 
 ## Upscale & Photo restoration
 <video controls>
-<source src="images/plugin-preview-2.mp4" type="video/mp4"></source>
+    <source src="./images/plugin-preview-2.mp4" type="video/mp4"></source>
 </video>
 
 <video controls>
-<source src="images/plugin-preview-3.mp4" type="video/mp4"></source>
+    <source src="./images/plugin-preview-3.mp4" type="video/mp4"></source>
 </video>
 
 ## Fix AI Faces
 
 <video controls>
-<source src="images/plugin-preview-1.mp4" type="video/mp4"></source>
+    <source src="./images/plugin-preview-1.mp4" type="video/mp4"></source>
 </video>
 
 ## How to use
@@ -48,3 +48,4 @@ Just select the image layer you want to send to Codeformer and it will do its jo
 if you like the addon and wanna support me you can do it here
 
 <a href='https://ko-fi.com/A0A0ETK5O' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
