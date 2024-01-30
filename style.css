@@ -1,0 +1,29 @@
+body {
+  color: white;
+  padding: 0 16px;
+}
+li:before {
+  content: '• ';
+  width: 3em;
+}
+
+.heading-container{
+  width: 100%;     
+  margin: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-container sp-heading {
+  margin: 0;
+}
+
+.heading-container img {
+  width: 16px; 
+  height: 16px;
+  cursor: pointer;
+}
+sp-button {
+  width: 100%;
+}

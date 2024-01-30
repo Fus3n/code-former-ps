@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="main.js"></script> 
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+  <div class="heading-container">
+    <sp-heading>CodeFormer</sp-heading>
+    <img id="settings-btn" src="./icons/cogwheel-x128.svg" alt="settings">
+  </div>
+
+  <sp-field-group horizontal style="margin-top: 6px;">
+    <sp-field-label for="slider" id="slider-label">Fidelity (0.7)</sp-field-label>
+    <sp-slider id="slider" editable variant="filled" step="0.1" value="0.7" min="0" max="1"></sp-slider>
+  </sp-field-group>
+
+  <sp-divider size="m" style="margin-top: 8px;"></sp-divider>
+
+  <div style="margin: 8px 0;">
+    <sp-checkbox checked id="bg-enhance">Background Enhance</sp-checkbox>
+    <sp-checkbox checked id="face-enhance">Face Upsample</sp-checkbox>
+    
+    <sp-field-label for="upscale-factor" style="margin: 6px 0px; ">Upscale Factor</sp-field-label>
+    <sp-textfield id="upscale-factor" type="number" placeholder="Upscale Factor" value="1"></sp-textfield>
+  </div>
+
+  <sp-divider size="m"></sp-divider>
+
+  <sp-footer style="margin-top: 10px;">
+    <sp-button id="btn-scale">Upscale</sp-button>
+  </sp-footer>
+
+  
+</body>
+</html>
