@@ -13,10 +13,13 @@ Use **CodeFormer AI** to upscale your image inside Photoshop
 
 ## Upscale & Photo Restoration
 
+https://github.com/Fus3n/code-former-ps/assets/52007265/2c6d4342-927c-4d6a-85b0-06b8afc39348
+
+https://github.com/Fus3n/code-former-ps/assets/52007265/2aaca2f9-c298-45b8-b368-c93a8ef4a784
 
 ## Fix AI Faces
 
-
+https://github.com/Fus3n/code-former-ps/assets/52007265/0cf02083-c48b-4ea6-9f7a-c46f0d9ad502
 
 ## How to use
 
