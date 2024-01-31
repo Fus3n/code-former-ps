@@ -2,6 +2,7 @@ body {
   color: white;
   padding: 0 16px;
 }
+
 li:before {
   content: '• ';
   width: 3em;

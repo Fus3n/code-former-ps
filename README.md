@@ -4,7 +4,7 @@
 # CodeFormerPS
 Use **CodeFormer AI** to upscale your image inside Photoshop
 
-<img src="images/codeformer-ui.png" alt="ui-example"/>
+<img style="border-radius: 8px;" src="images/codeformer-ui.png" alt="ui-example"/>
 </div>
 
 
