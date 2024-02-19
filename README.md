@@ -5,8 +5,16 @@
 Use **CodeFormer AI** to upscale your image inside Photoshop
 
 <img style="border-radius: 8px;" src="images/codeformer-ui.png" alt="ui-example"/>
+
+
+
 </div>
 
+# Showcase 
+
+Heres a youtube video showing how to use it and what it doeas
+
+[![Youtube Video](https://img.youtube.com/vi/O1zV3S2XnvI/hqdefault.jpg)](https://www.youtube.com/embed/O1zV3S2XnvI)
 
 ## Download
 ### [CCX FILE](https://github.com/Fus3n/code-former-ps/releases/latest)
