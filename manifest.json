@@ -1,7 +1,7 @@
 {
-	"id": "code-former-ps-fusen",
+	"id": "8dfa66a4",
 	"name": "CodeFormerPS",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"main": "index.html",
 	"host": [
 		{
@@ -11,6 +11,11 @@
 	],
 	"manifestVersion": 5,
 	"requiredPermissions": {
+		"launchProcess": {
+			"schemes": ["https"],
+			"extensions": [],
+			"domains": ["*"]
+		},
 		"localFileSystem": "plugin",
 		"network": {
 			"domains": [

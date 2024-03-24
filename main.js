@@ -2,25 +2,22 @@ const { entrypoints } = require("uxp");
 const app = require("photoshop").app;
 const imaging = require("photoshop").imaging
 const Replicate = require("./node_modules/replicate/index.js")
-const getValue = require("./utils.js").getValue
+const {showAbout, customAlert, customPrompt, getValue } = require("./utils.js")
 
 const CODE_FORMER_MODEL = "sczhou/codeformer:7de2ea26c616d5bf2245ad0d5e24f0ff9a6204578a5c876db53142edd9d2cd56";
 
-showAbout = () => {
-  alert("CodeFormerPS by: https://twitter.com/fus3_n");
-}
+
 
 showSettings = async () => {
   try {
     let prevTok = await getValue("API_TOKEN")
-
-    let token = prompt("Your Replicate API Token", prevTok ?? "TOKEN")
+    let token = await customPrompt("Your Replicate API Token", "Please enter your replicate token", prevTok ?? "TOKEN")
     if (token != null && token != "") {
       await require('uxp').storage.secureStorage.setItem("API_TOKEN", token);
     } else {
       // Inform the user that they did not enter a name
       if (!prevTok) {
-        alert("You did not enter a token.");
+        customAlert("You did not enter a token.");
       }
     }
   } catch (err) {
@@ -34,7 +31,7 @@ const deleteCache = async () => {
     for (const path of paths) {
       await fs.unlink("plugin-data:/" + path);
     }
-    alert("Deleted!")
+    customAlert("Deleted!")
   } catch (err) {
     console.error(err);
   }
@@ -100,7 +97,7 @@ async function upscaleImage() {
       const doc = app.activeDocument;
       
       if (doc.activeLayers.length == 0) {
-        alert("Please select the layer you want to upscale");
+        customAlert("Please select the layer you want to upscale");
         return;
       }
 
@@ -119,7 +116,7 @@ async function upscaleImage() {
       try {
         const apiToken = await getValue("API_TOKEN")
         if (!apiToken) {
-          alert("Please enter your Replicate API Token in Settings or Click the Cogwheel icon")
+          customAlert("Please enter your Replicate API Token in Settings or Click the Cogwheel icon")
           return;
         }
         const replicate = new Replicate({
@@ -160,7 +157,7 @@ async function upscaleImage() {
         
         console.log("Finished")
       } catch (error) {
-        alert("Error: " + error.message);
+        customAlert("Error: " + error.message);
       }
       
     }

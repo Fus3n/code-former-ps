@@ -1,7 +1,7 @@
 {
-  "name": "uxp-template-ps-starter",
-  "version": "1.0.0",
-  "description": "Starter template for creating Adobe UXP based-Photoshop plugin.",
+  "name": "codeformer-ps-plugin",
+  "version": "1.1.0",
+  "description": "CodeFormerPS plugin",
   "author": "Adobe Inc",
   "license": "Apache-2.0",
   "dependencies": {
